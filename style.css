@@ -6,6 +6,7 @@ body {
 	text-align: center;
 	width: 100%;
 	padding-top:50px;
+	padding-bottom: 50px;
 }
 
 .icon-head {
@@ -18,7 +19,6 @@ body {
 
 .copy {
 	padding-top: 10px;
-	padding-bottom: 50px;
 	max-width: 800px;
 	margin: 0 auto;
 }
@@ -33,4 +33,24 @@ body {
 
 #slide3 {
 	background-color: aliceblue;
+}
+
+#slide5 {
+	background-color: beige;
+}
+
+#slide6 {
+	background-color: coral;
+}
+
+#slide7 {
+	background-color: sandybrown;
+}
+
+#slide8 {
+	background-color: orange;
+}
+
+#slide8 .copy {
+	text-align: left;
 }

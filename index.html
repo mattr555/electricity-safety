@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar-collapse">
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -21,21 +21,9 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
+            <li class="active"><a href="#slide3">Parallel Circuits</a></li>
+            <li><a href="#slide2">Safety Components</a></li>
+            <li><a href="#slide8">First Aid</a></li>
           </ul>
           <p class="navbar-right navbar-text">By Matthew Ramina</p>
         </div><!--/.nav-collapse -->
@@ -49,19 +37,8 @@
 		<div class="title">Electrical Safety</div>
 		<div class="copy">
 			Congratulations on the purchase your new home!<br>
-			Now is a good time to review the safety rules when using electrical appliances.
-		</div>
-	</div>
-
-	<div class="slide" id="slide2">
-		<div class="icon-head">
-			<i class="fa fa-home fa-5x"></i>
-		</div>
-		<div class="title">Safety Features</div>
-		<div class="copy">
-			Your home probably already has some features built in to the circuit box. <br>
-			These help to reduce the chance of an electrical fire if too much power is used. <br>
-			To understand how these work, though, a physics lesson is in order.
+			Now is a good time to review the safety rules when using electrical appliances.<br>
+			But first, some physics is in order.
 		</div>
 	</div>
 
@@ -98,6 +75,86 @@
 					<img src="http://www.hometips.com/wp-content/uploads/2012/08/main_electricall_circuitbreakers.gif">
 				</div>
 			</div>
+		</div>
+	</div>
+
+	<div class="slide" id="slide2">
+		<div class="icon-head">
+			<i class="fa fa-home fa-5x"></i>
+		</div>
+		<div class="title">Safety Features</div>
+		<div class="copy">
+			Your home probably already has some features built in to the circuit box. <br>
+			These help to reduce the chance of an electrical fire if too much power is used.
+		</div>
+	</div>
+
+	<div class="slide" id="slide5">
+		<div class="title">Circuit Breakers</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 image">
+					<img src="http://static.ddmcdn.com/gif/circuit-breaker-diagram.gif">
+				</div>
+				<div class="col-lg-6 copy">
+					When too much current is drawn from the circuit, wires may heat up through a process called <em>Joule heating</em> and begin to melt or burn, causing an electrical fire.<br>
+					To combat this, circuit breakers are used. Electricity flows through an electromagnet (a magnet that uses electricity to work).<br>
+					Enough current will be able to pull the switch down, disconnecting the circuit from the main power and preventing a fire.<br>
+					These are advantageous because they are easy to switch and don't have to be replaced every time too much current is drawn.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="slide" id="slide6">
+		<div class="title">Fuses</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 copy">
+					Older circuit boxes may have fuses, which work like incandescent light bulbs.<br>
+					Here, thin wire filaments heat up like in a light bulb. If too much current is drawn, the wire will get too hot and disintegrate.<br>
+					If a fuse is "blown," it will need to be replaced.<br>
+					Fuses are also found in cars.
+				</div>
+				<div class="col-lg-6 image">
+					<img src="http://g-vision.net/images/fuse.jpg" height="200" width="200">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="slide" id="slide7">
+		<div class="title">Grounding Wires</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 image">
+					<img src="https://avalanche.tessco.com/productimages/250x250/139482.jpg">
+				</div>
+				<div class="col-lg-6 copy">
+					Electricity wants to travel to where it is more spread out.<br>
+					This is why lightning wants to move from a crowded cloud to the ground.<br>
+					In the same way, electricity wants to move from it's cramped wires and components to a place more spread out. When you are working in a circuit box, that place may be you.<br>
+					To make sure that a worker doesn't experience an electric shock by touching the wrong things, the circuit box is "grounded" to the earth with a wire. This creates a pathway to a more spread out location when work is done on a circuit.<br><br>
+					Grounding wires are also used with lightning rods to disperse the energy if it is hit. The electricity will dissipate into the ground, rather than into the house.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="slide" id="slide8">
+		<div class="icon-head">
+			<i class="fa fa-ambulance fa-5x"></i>
+		</div>
+		<div class="title">First Aid</div>
+		<div class="copy">
+			<ol>
+				<li>Make sure the area is safe for entry</li>
+				<li>Do <b>NOT</b> touch a victim who is in immediate contact with the source of electricity.</li>
+				<li>Try to turn off the main source of energy with the circuit box. If this is not doable, use a non-conductive material, like wood, to separate the victim from the source of electricity</li>
+				<li>Call 9-1-1</li>
+				<li>Begin to perform CPR if the breathing or heartbeat appears to be affected by the electricity.</li>
+				<li>Treat the victim for shock by elevating his feet above his head.</li>
+			</ol>
 		</div>
 	</div>
 	
