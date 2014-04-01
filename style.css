@@ -5,10 +5,10 @@ body {
 .slide {
 	text-align: center;
 	width: 100%;
+	padding-top:50px;
 }
 
 .icon-head {
-	padding-top: 50px;
 	padding-bottom: 30px;
 }
 
@@ -29,4 +29,8 @@ body {
 
 #slide2 {
 	background-color: #B72E3E; 
+}
+
+#slide3 {
+	background-color: aliceblue;
 }
